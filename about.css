@@ -1,0 +1,131 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+    background-color: #4e2403;
+}
+.navbar{
+    position: relative;
+    background-color: #431f04;
+    position: sticky;
+    top: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav-links{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+a:hover{
+    color: #fa0000;
+    transition: 0.3s;
+}
+img{
+
+    margin-right: 200px;
+    width: 300px;
+    border-radius: 100%;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.Abou{
+    font-size: 30px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaf6ff; /* light background */
+  padding: 40px;
+  gap: 100px;
+ 
+}
+
+.about-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.about-text {
+  max-width: 800px;
+  color:  #4a2100;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.product-container:hover{
+    transform: scale(1.05);
+}
+
+.product-box {
+  width: 180px;
+  height: 250px;
+  background-color: #6a3b14;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+  text-align: center;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+
